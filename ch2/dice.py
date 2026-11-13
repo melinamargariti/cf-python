@@ -7,6 +7,7 @@ DICE_MAX = 6
 
 def main() -> None:
 
+    """Simulates rolling a six-sided dice five times and prints the results."""
     for i in range(5):
         dice1 = random.randint(DICE_MIN, DICE_MAX)
         dice2 = random.randint(DICE_MIN, DICE_MAX)
